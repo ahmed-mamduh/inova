@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@1,800&display=swap');body{
+  background-color: #000;
+  color: #fff;
+}
+.img-logo {
+  width:103px;
+  height: 85px;
+}
+a{
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav-link{
+  color: #fff;
+}
+.main-cont{
+  position: relative;
+}
+.layer{
+  position: absolute;
+  left:0 ;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.6);
+  text-transform: capitalize;
+}
+.carousel-indicators [data-bs-target]{
+  height: 12px;
+  width: 22px;
+  background-color: #55E748;
+}
+.underline{
+ 
+  bottom: 5px;
+  height: 1px;
+  background-color: grey;
+  width: 100%;
+  left: 0px;
+}
+#main-nav{
+  background-color: #1E1E1E;
+}
+.main-color{
+  color: #55E748;
+}
+.custom-icon{
+  border: 1px solid #55E748;
+}
+
+.main-back{
+  background-color: #55E748;
+}
+.button-custom{
+  padding: 5px 10px;
+  border: none;
+  font-weight: bolder;
+}
+.text-custom{
+  font-size: 50px;
+  font-family: 'Barlow', sans-serif;
+}
+.text-aa{
+  text-transform: capitalize;
+}
